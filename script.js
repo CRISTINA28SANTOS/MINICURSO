@@ -3,7 +3,6 @@ const botao = document . querySelector('button'); /*Cria constante para receber 
 const nomeDoPersonagem = document . querySelector('#nome'); /*Captura a li do nome*/
 const especie = document . querySelector('#especie'); /*Captura a li da especie*/
 const condicao = document . querySelector('#condicao'); /*Captura a li da condicao*/
-
 traduzirCondicao = (data) => {
     if (dados . status =='desconhecido'){
         return 'Não sei';
