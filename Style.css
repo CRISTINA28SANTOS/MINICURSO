@@ -35,6 +35,7 @@ main > section button {
     font-weight: 500;
     letter-spacing: -0.6px;
     line-height: 20px;
+    padding: 9px 25px;
     text-transform: uppercase;
 }
 
@@ -43,4 +44,15 @@ main > section button {
     list-style-type: none;
     height: 30px;
     width: 90%;
+    padding: 15px 23px;
+}
+#detalhes-container{
+  
+}
+#detalhes-container > li {
+  align-items: baseline;
+  display: flex;
+}
+#detalhes-container > li p{
+  color : white;
 }
